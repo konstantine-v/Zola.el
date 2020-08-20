@@ -1,5 +1,7 @@
 #+TITLE: Zola.el
 Emacs minor mode for running zola commands within emacs, making your life easier.
+** Status
+*Please Note* The package currently is a Work In Progress and is not working as a package but is partially working as a standalone script. Please be aware of this when installing.
 ** Install
 Clone this in your ~.emacs~ as you would another project
 #+BEGIN_SRC bash
