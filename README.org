@@ -1,11 +1,13 @@
 #+TITLE: Zola.el
-Emacs minor mode for running zola commands within emacs, making your life easier.
+Emacs minor mode for running zola commands within emacs, making your life easier. Zola is in reference to the [[Zola][https://github.com/getzola/zola]] static site generator.
 ** Status
-*Please Note* The package currently is a Work In Progress and is not working as a package but is partially working as a standalone script. Please be aware of this when installing.
+*Please Note* The package currently is a Work In Progress, and while it works in it's current state there will be more work done on it.
 ** Install
+*Needs Testing!*
+
 Clone this in your ~.emacs~ as you would another project
 #+BEGIN_SRC bash
-git clone https://github.com/manateelazycat/emacs-application-framework.git --depth=1
+git clone <git url> --depth=1
 #+END_SRC
 
 Add the file to your ~.init~
@@ -16,10 +18,10 @@ Add the file to your ~.init~
 If you use ~use-package~, you can use that method.
 #+BEGIN_SRC elisp
 (use-package eaf
-  :load-path "~/.emacs.d/site-lisp/zola")
+  :load-path "~/.emacs/lisp/zola")
 #+END_SRC
 ** Notes
-- Right now the goal is to get this working as a front-end for ~zola serve~ and work from there
+- Right now this works for starting and tearing down the local zola server
 - This project is so I can learn ~elisp~ a bit better and have a neat tool
 - If this project starts to get past being just a zola server and works with more of zola then I'll consider adding it to Melpa, and maybe AUR
 ** Contributing
